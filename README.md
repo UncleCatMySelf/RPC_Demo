@@ -6,6 +6,7 @@
 
 * [RPC框架是啥？](https://unclecatmyself.github.io/2019/04/20/whatisrpc/)
 * [RPC框架是啥之Java自带RPC实现，RMI框架入门](https://unclecatmyself.github.io/2019/04/21/rpcaboutrmi/)
+* [RPC框架是啥之Apache CXF一款WebService RPC框架入门教程](https://unclecatmyself.github.io/2019/04/23/rpcaboutcxf/)
 
 ### 公众号：Java猫说
 
