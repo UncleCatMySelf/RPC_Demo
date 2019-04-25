@@ -1,0 +1,16 @@
+<service name="MyAxis2" scope="application">
+    <description>
+        Stock Quote Sample Service
+    </description>
+    <messageReceivers>
+        <messageReceiver
+                mep="http://www.w3.org/ns/wsdl/in-only"
+                class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver"/>
+        <messageReceiver
+                mep="http://www.w3.org/ns/wsdl/in-out"
+                class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+    </messageReceivers>
+    <parameter name="ServiceClass">
+        com.github.axis2.server.Axis2ServiceImpl
+    </parameter>
+</service>
